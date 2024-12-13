@@ -1,4 +1,4 @@
-# Video-OCR Benchmark v1
+# FG Benchmark
 
 Official repository of "Video-OCR Bench: A Comprehensive Benchmark for Evaluating Optical Character Recognition in Video Multimodal LLMs"
 
