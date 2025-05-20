@@ -16,7 +16,7 @@ Download： [The thunder SkyDrive](https://pan.xunlei.com/s/VODLlDIq_iJCO4ol84e2
 
 FG Bench (Video-OCR Bench) is the **first specialized benchmark** for evaluating the video OCR capabilities of multimodal large language models (LLMs). It systematically tests models' performance in core scenarios such as dynamic text processing, temporal localization, and multi-frame information integration. The benchmark provides high-quality datasets and a standardized evaluation framework through a combination of **semi-automated construction processes** and **manual refinement**, offering critical references for the research and optimization of video LLMs.
 
-![example_subtask](.\examples.png)
+![example_subtask](images\examples.png)
 
 #### **Core Features**
 
@@ -38,7 +38,7 @@ FG Bench (Video-OCR Bench) is the **first specialized benchmark** for evaluating
 
 3. **Semi-Automated Construction Process**
 
-   ![liuchengtu](.\process_pipline.png)
+   ![liuchengtu](images\process_pipline.png)
 
    - **Efficiency and Cost-Effectiveness**: Combines OCR capabilities of image LLMs (e.g., InternVL-1.5 for text attribute extraction) with manual optimization, deployable on a single A6000 GPU;
    - **Data Quality Assurance**: Uses GPT-4o-mini to evaluate semantic consistency, ensuring unique answers and video-dependent questions.
@@ -51,7 +51,7 @@ FG Bench (Video-OCR Bench) is the **first specialized benchmark** for evaluating
 
 #### **Key Achievements and Findings**
 
-![image-20250520171043781](.\results.png)
+![image-20250520171043781](images\results.png)
 
 - **Top Model Performance**: Qwen2-VL-7B (average score 0.4653) and MiniCPM-V 2.6 (0.4508) lead in overall performance but still perform near random guesses in temporal localization;
 - **Advantages of Video LLMs**: Significantly outperform image LLMs in dynamic information processing (single-image models like Monkey scored <0.2);
