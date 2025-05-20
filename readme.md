@@ -57,9 +57,8 @@ FG Bench (Video-OCR Bench) is the **first specialized benchmark** for evaluating
 - **Advantages of Video LLMs**: Significantly outperform image LLMs in dynamic information processing (single-image models like Monkey scored <0.2);
 - **Insights from Movement Detection**: Frame-by-frame analysis improves dynamic information capture, with frame-wise processing models achieving 0.592 accuracy in movement detection, far exceeding frame-stitching methods.
 
-**Citation Suggestion**
+### **Citation Suggestion**
 If using FG-Bench, please cite:
-
 ```bibtex
 @article{fei2024current,
   title={Do Current Video LLMs Have Strong OCR Abilities? A Preliminary Study},
