@@ -57,7 +57,48 @@ FG Bench (Video-OCR Bench) is the **first specialized benchmark** for evaluating
 - **Advantages of Video LLMs**: Significantly outperform image LLMs in dynamic information processing (single-image models like Monkey scored <0.2);
 - **Insights from Movement Detection**: Frame-by-frame analysis improves dynamic information capture, with frame-wise processing models achieving 0.592 accuracy in movement detection, far exceeding frame-stitching methods.
 
-### **Citation Suggestion**
+# Evaluation
+
+## Project directory structure
+
+Download and place it in the folder. Download address: [The thunder SkyDrive](https://pan.xunlei.com/s/VODLlDIq_iJCO4ol84e2t3_3A1?pwd=zjnc#) or [Baidu Netdisk](https://pan.baidu.com/s/1g56idSRa0afZiNCkg7dB9A?pwd=pyu5)
+
+```
+RSL-SQL/
+├── README.md
+├── requirements.txt
+│
+├── images/
+│
+├── database/
+│   ├── video/
+│   └── qa/
+│
+├── evalutaion/
+│   ├── gpt_3_5_turbo_semantic.py
+│   ├── gpt_3_5_turbo_spatial.py
+│   ├── multiple_choice_movement.py
+│   ├── multiple_choices_temporal_interval.py
+│   ├── simple_check_atrribute_recog.py
+│   └── simple_check_content_recog.py
+│
+└── src/
+    └── configs/
+        └── config.py
+```
+
+## Run
+
+
+
+
+
+
+
+
+
+# **Citation Suggestion**
+
 If using FG-Bench, please cite:
 ```bibtex
 @article{fei2024current,
