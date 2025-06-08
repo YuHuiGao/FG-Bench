@@ -64,7 +64,7 @@ FG Bench (Video-OCR Bench) is the **first specialized benchmark** for evaluating
 Download and place it in the folder. Download address: [The thunder SkyDrive](https://pan.xunlei.com/s/VODLlDIq_iJCO4ol84e2t3_3A1?pwd=zjnc#) or [Baidu Netdisk](https://pan.baidu.com/s/1g56idSRa0afZiNCkg7dB9A?pwd=pyu5)
 
 ```
-RSL-SQL/
+FG-Bench/
 ├── README.md
 ├── requirements.txt
 │
