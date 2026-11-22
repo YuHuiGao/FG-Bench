@@ -50,6 +50,10 @@ def simple_check(prediction_folder):
                     answer[i] = item[:-1]
             if pred.endswith("。"):
                 pred = pred[:-1]
+            if not pred.strip():
+                total_qas_num += 1
+                continue
+
             # check if pred is in answer
             if answer[0] in pred:
                 judge_yes_or_no += 1
